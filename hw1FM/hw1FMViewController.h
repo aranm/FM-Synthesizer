@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WaveView.h"
 
-@interface hw1FMViewController : UIViewController
+@interface hw1FMViewController : UIViewController <WaveViewProtocol>
+@property (weak, nonatomic) IBOutlet UISwitch *toggleSwitch;
+@property (weak, nonatomic) IBOutlet UISlider *indexSlider;
+@property (weak, nonatomic) IBOutlet WaveView *waveView;
+
+
+
+- (IBAction)continuousToggle:(id)sender;
+- (IBAction)indexSliderChange:(id)sender;
+- (IBAction)triggerNote:(id)sender;
 
 @end

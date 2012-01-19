@@ -7,32 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8096D2314C7DDBE0091B16B /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8096D2214C7DDBE0091B16B /* WaveView.m */; };
+		A8096D4314C7F1720091B16B /* Envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8096D4114C7F1720091B16B /* Envelope.cpp */; };
+		A8096D4414C7F1720091B16B /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8096D4214C7F1720091B16B /* Stk.mm */; };
 		A8FA569714C437440040D073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA569614C437440040D073 /* UIKit.framework */; };
 		A8FA569914C437440040D073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA569814C437440040D073 /* Foundation.framework */; };
 		A8FA569B14C437440040D073 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA569A14C437440040D073 /* CoreGraphics.framework */; };
 		A8FA56A114C437440040D073 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8FA569F14C437440040D073 /* InfoPlist.strings */; };
 		A8FA56A314C437440040D073 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56A214C437440040D073 /* main.m */; };
-		A8FA56A714C437440040D073 /* hw1FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56A614C437440040D073 /* hw1FMAppDelegate.m */; };
+		A8FA56A714C437440040D073 /* hw1FMAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56A614C437440040D073 /* hw1FMAppDelegate.mm */; };
 		A8FA56AA14C437440040D073 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FA56A814C437440040D073 /* MainStoryboard_iPhone.storyboard */; };
 		A8FA56AD14C437440040D073 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FA56AB14C437440040D073 /* MainStoryboard_iPad.storyboard */; };
-		A8FA56B014C437440040D073 /* hw1FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56AF14C437440040D073 /* hw1FMViewController.m */; };
+		A8FA56B014C437440040D073 /* hw1FMViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56AF14C437440040D073 /* hw1FMViewController.mm */; };
+		A8FA56B714C437520040D073 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA56B614C437520040D073 /* AudioToolbox.framework */; };
+		A8FA56C614C437B90040D073 /* mo_accel.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56BE14C437B90040D073 /* mo_accel.mm */; };
+		A8FA56C714C437B90040D073 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56C014C437B90040D073 /* mo_audio.mm */; };
+		A8FA56C814C437B90040D073 /* mo_thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56C314C437B90040D073 /* mo_thread.mm */; };
+		A8FA56C914C437B90040D073 /* mo_touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8FA56C514C437B90040D073 /* mo_touch.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8096D2114C7DDBE0091B16B /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		A8096D2214C7DDBE0091B16B /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		A8096D3D14C7F1660091B16B /* Envelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Envelope.h; sourceTree = "<group>"; };
+		A8096D3E14C7F1660091B16B /* Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generator.h; sourceTree = "<group>"; };
+		A8096D3F14C7F1660091B16B /* Stk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stk.h; sourceTree = "<group>"; };
+		A8096D4114C7F1720091B16B /* Envelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Envelope.cpp; sourceTree = "<group>"; };
+		A8096D4214C7F1720091B16B /* Stk.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Stk.mm; sourceTree = "<group>"; };
 		A8FA569214C437440040D073 /* hw1FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw1FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FA569614C437440040D073 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8FA569814C437440040D073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8FA569A14C437440040D073 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8FA569E14C437440040D073 /* hw1FM-Info.plist */ = {isa = PBXFileReference; path = "hw1FM-Info.plist"; sourceTree = "<group>"; };
+		A8FA569E14C437440040D073 /* hw1FM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw1FM-Info.plist"; sourceTree = "<group>"; };
 		A8FA56A014C437440040D073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8FA56A214C437440040D073 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8FA56A414C437440040D073 /* hw1FM-Prefix.pch */ = {isa = PBXFileReference; path = "hw1FM-Prefix.pch"; sourceTree = "<group>"; };
-		A8FA56A514C437440040D073 /* hw1FMAppDelegate.h */ = {isa = PBXFileReference; path = hw1FMAppDelegate.h; sourceTree = "<group>"; };
-		A8FA56A614C437440040D073 /* hw1FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw1FMAppDelegate.m; sourceTree = "<group>"; };
+		A8FA56A414C437440040D073 /* hw1FM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hw1FM-Prefix.pch"; sourceTree = "<group>"; };
+		A8FA56A514C437440040D073 /* hw1FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hw1FMAppDelegate.h; sourceTree = "<group>"; };
+		A8FA56A614C437440040D073 /* hw1FMAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hw1FMAppDelegate.mm; sourceTree = "<group>"; };
 		A8FA56A914C437440040D073 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A8FA56AC14C437440040D073 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A8FA56AE14C437440040D073 /* hw1FMViewController.h */ = {isa = PBXFileReference; path = hw1FMViewController.h; sourceTree = "<group>"; };
-		A8FA56AF14C437440040D073 /* hw1FMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw1FMViewController.m; sourceTree = "<group>"; };
+		A8FA56AE14C437440040D073 /* hw1FMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hw1FMViewController.h; sourceTree = "<group>"; };
+		A8FA56AF14C437440040D073 /* hw1FMViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hw1FMViewController.mm; sourceTree = "<group>"; };
+		A8FA56B614C437520040D073 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A8FA56BD14C437B90040D073 /* mo_accel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_accel.h; sourceTree = "<group>"; };
+		A8FA56BE14C437B90040D073 /* mo_accel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_accel.mm; sourceTree = "<group>"; };
+		A8FA56BF14C437B90040D073 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_audio.h; sourceTree = "<group>"; };
+		A8FA56C014C437B90040D073 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_audio.mm; sourceTree = "<group>"; };
+		A8FA56C114C437B90040D073 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
+		A8FA56C214C437B90040D073 /* mo_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_thread.h; sourceTree = "<group>"; };
+		A8FA56C314C437B90040D073 /* mo_thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_thread.mm; sourceTree = "<group>"; };
+		A8FA56C414C437B90040D073 /* mo_touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_touch.h; sourceTree = "<group>"; };
+		A8FA56C514C437B90040D073 /* mo_touch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_touch.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FA56B714C437520040D073 /* AudioToolbox.framework in Frameworks */,
 				A8FA569714C437440040D073 /* UIKit.framework in Frameworks */,
 				A8FA569914C437440040D073 /* Foundation.framework in Frameworks */,
 				A8FA569B14C437440040D073 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +78,7 @@
 		A8FA568714C437440040D073 = {
 			isa = PBXGroup;
 			children = (
+				A8FA56B614C437520040D073 /* AudioToolbox.framework */,
 				A8FA569C14C437440040D073 /* hw1FM */,
 				A8FA569514C437440040D073 /* Frameworks */,
 				A8FA569314C437440040D073 /* Products */,
@@ -79,12 +106,28 @@
 		A8FA569C14C437440040D073 /* hw1FM */ = {
 			isa = PBXGroup;
 			children = (
+				A8FA56BD14C437B90040D073 /* mo_accel.h */,
+				A8FA56BE14C437B90040D073 /* mo_accel.mm */,
+				A8FA56BF14C437B90040D073 /* mo_audio.h */,
+				A8FA56C014C437B90040D073 /* mo_audio.mm */,
+				A8FA56C114C437B90040D073 /* mo_def.h */,
+				A8FA56C214C437B90040D073 /* mo_thread.h */,
+				A8FA56C314C437B90040D073 /* mo_thread.mm */,
+				A8FA56C414C437B90040D073 /* mo_touch.h */,
+				A8FA56C514C437B90040D073 /* mo_touch.mm */,
+				A8096D3D14C7F1660091B16B /* Envelope.h */,
+				A8096D3E14C7F1660091B16B /* Generator.h */,
+				A8096D3F14C7F1660091B16B /* Stk.h */,
 				A8FA56A514C437440040D073 /* hw1FMAppDelegate.h */,
-				A8FA56A614C437440040D073 /* hw1FMAppDelegate.m */,
+				A8FA56A614C437440040D073 /* hw1FMAppDelegate.mm */,
 				A8FA56A814C437440040D073 /* MainStoryboard_iPhone.storyboard */,
+				A8096D4114C7F1720091B16B /* Envelope.cpp */,
+				A8096D4214C7F1720091B16B /* Stk.mm */,
 				A8FA56AB14C437440040D073 /* MainStoryboard_iPad.storyboard */,
 				A8FA56AE14C437440040D073 /* hw1FMViewController.h */,
-				A8FA56AF14C437440040D073 /* hw1FMViewController.m */,
+				A8FA56AF14C437440040D073 /* hw1FMViewController.mm */,
+				A8096D2114C7DDBE0091B16B /* WaveView.h */,
+				A8096D2214C7DDBE0091B16B /* WaveView.m */,
 				A8FA569D14C437440040D073 /* Supporting Files */,
 			);
 			path = hw1FM;
@@ -165,8 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FA56A314C437440040D073 /* main.m in Sources */,
-				A8FA56A714C437440040D073 /* hw1FMAppDelegate.m in Sources */,
-				A8FA56B014C437440040D073 /* hw1FMViewController.m in Sources */,
+				A8FA56A714C437440040D073 /* hw1FMAppDelegate.mm in Sources */,
+				A8FA56B014C437440040D073 /* hw1FMViewController.mm in Sources */,
+				A8FA56C614C437B90040D073 /* mo_accel.mm in Sources */,
+				A8FA56C714C437B90040D073 /* mo_audio.mm in Sources */,
+				A8FA56C814C437B90040D073 /* mo_thread.mm in Sources */,
+				A8FA56C914C437B90040D073 /* mo_touch.mm in Sources */,
+				A8096D2314C7DDBE0091B16B /* WaveView.m in Sources */,
+				A8096D4314C7F1720091B16B /* Envelope.cpp in Sources */,
+				A8096D4414C7F1720091B16B /* Stk.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +267,7 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -236,7 +286,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -288,6 +338,7 @@
 				A8FA56B514C437440040D073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
